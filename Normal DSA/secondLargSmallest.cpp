@@ -26,10 +26,10 @@ int secondLargest(int arr[],int n){
         if(arr[i]>secondLargest && arr[i]!=largest){
             secondLargest= arr[i];
         }
-    }
+    } 
     return secondLargest;
 }  
-//hello
+// world
 
 
 int main(){
