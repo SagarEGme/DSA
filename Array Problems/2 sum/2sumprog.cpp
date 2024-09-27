@@ -51,7 +51,7 @@ using namespace std;
 //     return 0;
 // }
 
-// TC -> 0(n2) SC -> 0(1)
+// TC -> 0(n^2) SC -> 0(1) since we aren't using extra spaces and just 2 elements doesn't matter so much.
 
 // BETTER APPROACH
 
@@ -85,7 +85,8 @@ using namespace std;
 
 // TC -> 0(n) SC -> 0(n) because we used a map data structure.
 
-// Optimal Solution
+// Optimal Solution -> above was also a kind of optimal solution but this method (two pointer approach) is used in case we aren't allowed to use map in the interview.
+// first we do sorting 
 // string twoSum(int n, vector<int> &arr, int target)
 // {
 //     sort(arr.begin(), arr.end());
