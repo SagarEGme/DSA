@@ -45,6 +45,9 @@ void print(Node *head)
     }
 }
 
+// TC -> 0(max(l1,l2))
+// sc-> 0(max(m,n))
+
 Node* add2LL(Node* l1, Node* l2){
     Node* dummyNode = new Node(0);
     Node* temp = dummyNode;
